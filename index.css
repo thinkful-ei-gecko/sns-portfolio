@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    color: #0F4A59;
+    background: #FAF7D9;
+    margin: 2rem auto;
+    line-height: 1.5;
+    width: 95%;
+}
+
+header {
+    text-align: center;
+    padding: 3% 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0;
+}
+
+.more-about-me {
+    padding: 3% 0;
+    margin-bottom: 15rem;
+}
+
+h4, p {
+  margin: 0;
+}
+
+h5 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.emph {
+    font-style: italic;
+    font-weight: bold;
+    color: #B83261;
+}
+
+.link-style a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+}
+
+.divider {
+    font-size: 1rem;
+}
+
+a:hover, a:focus {
+    color: #FA78A6;
+    transition: all 0.3s ease;
+} 
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.grid > * {
+  padding: .5rem;
+  background: #333;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(210px, auto);
+    grid-gap: .5rem;
+  }
+
+.grid li {
+    display: flex;
+    align-items: flex-end;
+}
+
+.future {
+     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)), url("https://picsum.photos/600");
+     background-size: cover;
+
+}
+
+#quiz {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url("/images/Quizapp.png");
+    background-size: cover;
+
+}
+
+#bookmark {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),
+    url("/images/bookmark-butler.png");
+    background-size: cover;
+}
+
+i {
+    font-size: 2.5rem;
+    color: #B83261;
+}
+i:hover, i:focus {
+    color: #FA78A6;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+.fa-copyright {
+    font-size: 1rem;
+    color: #0F4A59;
+
+}
+
+@media screen and (min-width: 40em) {
+    body {
+        width: 90%;
+    }
+    header {
+        width: 60%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
+    .link-style a, .divider {
+        font-size: 1.6rem;
+    }
+
+     #bookmark {
+        background-size: contain;
+    }
+
+    .grid {
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 2px;
+    }
+    .grid li:nth-child(1) {
+        grid-column: 1 / -1;
+        grid-row: span 4;
+    }
+    .grid li:nth-child(2) {
+        grid-column: span 3;
+        grid-row: span 4;
+    }
+
+      .grid li:nth-child(3) {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+
+      .grid li:nth-child(4) {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    body {
+        width: 60%;
+    }
+
+    .more-about-me {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30rem;
+    }
+}
