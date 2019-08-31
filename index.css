@@ -80,7 +80,7 @@ ul {
     align-items: flex-end;
 }
 
-.future {
+#future {
      background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)), url("https://picsum.photos/600");
      background-size: cover;
 
@@ -115,7 +115,10 @@ footer {
 .fa-copyright {
     font-size: 1rem;
     color: #0F4A59;
+}
 
+.modal {
+    display: none;
 }
 
 @media screen and (min-width: 40em) {
