@@ -89,14 +89,14 @@ ul {
 
 #quiz {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
-    url("/images/Quizapp.png");
+    url("images/Quizapp.png");
     background-size: cover;
 
 }
 
 #bookmark {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),
-    url("/images/bookmark-butler.png");
+    url("images/bookmark-butler.png");
     background-size: cover;
 }
 
