@@ -7,7 +7,7 @@ const store = [
     },
     {
         id: 'bookmark',
-        img: 'images/bookmark-butler.png',
+        img: 'images/bookmarkbutler.png',
         alt: 'screenshot from Bookmark Butler app',
         desc: 'A simple app to store your favorite places on the web. Built using Javascript and jQuery',
     }
@@ -35,8 +35,8 @@ function generateModalHtml(id) {
     return `
         <div class="modal-container">
             <img src=${project.img} alt="${project.alt} id="modal-img">
-            <button type="button" class="close">x</button>
             <p class="desc">${project.desc}</p>
+            <button type="button" class="close">x</button>
         </div>
     `
 }

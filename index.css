@@ -91,13 +91,15 @@ ul {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
     url("images/Quizapp.png");
     background-size: cover;
+    background-position: center;
 
 }
 
 #bookmark {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),
-    url("images/bookmark-butler.png");
+    url("images/bookmarkbutler.png");
     background-size: cover;
+    background-position: center;
 }
 
 i {
@@ -136,7 +138,24 @@ img {
     max-width: 95%;
     height: auto;
     max-height: 95%;
+}
 
+.close {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background: #B83261;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+}
+
+.close:hover, .close:hover {
+    background: #FA78A6;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 
@@ -165,10 +184,6 @@ img {
         font-size: 1.6rem;
     }
 
-     #bookmark {
-        background-size: contain;
-    }
-
     .grid {
       grid-template-columns: repeat(6, 1fr);
       grid-gap: 2px;
@@ -178,17 +193,17 @@ img {
         grid-row: span 4;
     }
     .grid li:nth-child(2) {
-        grid-column: span 3;
+        grid-column: span 2;
         grid-row: span 4;
     }
 
       .grid li:nth-child(3) {
-        grid-column: span 3;
+        grid-column: span 4;
         grid-row: span 2;
     }
 
       .grid li:nth-child(4) {
-        grid-column: span 3;
+        grid-column: span 4;
         grid-row: span 2;
     }
 
