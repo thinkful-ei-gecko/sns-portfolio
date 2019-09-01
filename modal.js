@@ -1,13 +1,13 @@
 const store = [
     {
         id: 'quiz',
-        img: '/images/Quizapp.png',
+        img: 'images/Quizapp.png',
         alt: 'screenshot from Strange Laws quiz app',
         desc: 'The US has a lot of weird laws. The questions and answers are randomized each playthrough. <br> Test your knowledge! Built with JavaScript and jQuery',
     },
     {
         id: 'bookmark',
-        img: '/images/bookmark-butler.png',
+        img: 'images/bookmark-butler.png',
         alt: 'screenshot from Bookmark Butler app',
         desc: 'A simple app to store your favorite places on the web. Built using Javascript and jQuery',
     }
