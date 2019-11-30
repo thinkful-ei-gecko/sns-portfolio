@@ -147,23 +147,23 @@ ul {
     align-items: flex-end;
 }
 
-.future {
-     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)), url("https://picsum.photos/600");
-     background-size: cover;
-
-}
-
-#quiz {
+#algorithme {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
-    url("images/Quizapp.png");
+    url("images/algorithMe2.png");
     background-size: cover;
     background-position: center;
-
 }
 
-#bookmark {
+#sort-viz {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url("images/sort-viz.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#chord-courier {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),
-    url("images/bookmarkbutler.png");
+    url("images/chord-courier.png");
     background-size: cover;
     background-position: center;
 }
